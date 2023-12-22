@@ -8,16 +8,11 @@ public class UserController {
     @GetMapping("/register")
 
     public String getRegisterPage(){
-
-        return "register_page";
+    return "register_page";
     }
-
     @GetMapping("/login")
-
     public String getLoginPage() {
         return "login_page";
     }
-
-
 }
 
